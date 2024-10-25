@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+.navbar{
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+.container{
+    padding: 15px;
+}
+
+.book-container{
+    padding: 20px;
+    width: 30%;
+    background-color: aquamarine;
+    border-radius: 15px;
+    color: rgb(195, 0, 255);
+    margin: 35px;
+    display: inline-block;
+}
+
+.bookcontainer h2{
+color: #000;
+}
+
+.book-container h4{
+    color:green;
+}
+
+.book-container p{
+color: rgb(255, 127, 80);
+}
+
+.book-container button{
+    background-color: chartreuse;
+    color: crimson;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 14px;
+    border: none;
+}
+
+.add-button{
+    background-color: chartreuse;
+    color: darkblue;
+    border-radius: 100%;
+    padding-left: 36px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 35px;
+    font-size: 50px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.popup-overlay{
+    background-color: cyan;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none; 
+}
+
+.popup-box{
+    background-color: forestgreen;
+    width: 45%;
+    padding: 45px;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 2;
+    display: none;
+}
+
+.popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 6PX;
+    padding: 6PX;
+    font-size: 25PX;
+    border-bottom: solid purple 4PX;
+}
+
+.popup-box textarea{
+    background: transparent;
+    width: 100%;
+    margin: 6PX;
+    padding: 6PX;
+    font-size: 25PX;
+    border-bottom: solid purple 4PX;
+}
+
+.popup-box input::placeholder{
+    color: cornflowerblue;
+}
+
+.popup-box textarea::placeholder{
+    color: cornflowerblue;
+}
+
+.popup-box button{
+    background-color: darkolivegreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    padding-top: 15PX;
+    padding-bottom: 15PX;
+    color: cyan;
+    margin: 7px;
+}
+
+.popup-box input:focus{
+    outline: none;
+}
+
+.popup-box textarea:focus{
+    outline: none;
+}
